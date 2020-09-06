@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.title("Credit Default Prediction App")
 
 st.write("""
-### This app predicts the credit defaulters which can help the bank to avoid such customers.
+### _Makes predictions on which customers are likely to **default** in the following month & whether the account should be considered for **credit counseling** or not._
 """)
 
 st.sidebar.header('User Input Features')
